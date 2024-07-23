@@ -43,13 +43,13 @@ const Auth = observer(() => {
         <Form className="d-flex flex-column">
           <Form.Control
             className="mt-3"
-            placeholder="Enter tour email..."
+            placeholder="Enter your email..."
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <Form.Control
             className="mt-3"
-            placeholder="Enter tour password..."
+            placeholder="Enter your password..."
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"

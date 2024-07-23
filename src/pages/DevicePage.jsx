@@ -18,7 +18,7 @@ const DevicePage = () => {
           <Image
             width={300}
             height={300}
-            src={"http://localhost:4000/" + device.img}
+            src={"https://online-shop-be-qwef.onrender.com" + device.img}
           />
         </Col>
         <Col md={4}>

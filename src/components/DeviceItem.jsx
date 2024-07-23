@@ -17,7 +17,7 @@ const DeviceItem = ({ device }) => {
     >
       <Card style={{ width: 150, cursor: "pointer" }} border="light">
         <Image
-          src={"http://localhost:4000/" + device.img}
+          src={"https://online-shop-be-qwef.onrender.com" + device.img}
           style={{ width: 150, height: 150 }}
         />
         <div className="d-flex justify-content-between align-items-center mt-1">
